@@ -7,3 +7,20 @@ __pycache__/
 .idea/
 .vscode/
 .DS_Store
+node_modules
+skills/
+
+# Ignore local agent/AI/Claude/automation folders
+.agent/
+.agents/
+.claude/
+.continue/
+
+# Ignore test cache and database files
+.pytest_cache/
+content.db
+
+# Ignore log, temp, and backup files
+*.log
+*.tmp
+*.bak
